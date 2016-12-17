@@ -2,10 +2,10 @@
 [![Build Status](https://travis-ci.org/pasupulaphani/spacy-nlp-node-native.svg?branch=master)](https://travis-ci.org/pasupulaphani/spacy-nlp-node-native)
 [![Coverage Status](https://coveralls.io/repos/github/pasupulaphani/spacy-nlp-node-native/badge.svg?branch=master)](https://coveralls.io/github/pasupulaphani/spacy-nlp-node-native?branch=master)
 [![Dependency Status](https://www.versioneye.com/user/projects/583c520dd2d44d003fb603be/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/583c520dd2d44d003fb603be)
-[![Gratipay donate button](https://img.shields.io/badge/gratipay-donate-yellow.svg?style=flat-square)](https://gratipay.com/spacy-nlp-node-native/)
+[![Gratipay donate button](https://img.shields.io/badge/gratipay-donate-yellow.svg?style=flat-square)](https://gratipay.com/~pasupulaphani/)
 
 # spacy-nlp-node-native[wip]
-Spacyio nlp for nodejs with native bindings
+Spacyio nlp for nodejs with native bindings [![See on Github](https://github.com/themes/tactile/images/octocat-icon.png)](https://github.com/pasupulaphani/spacy-nlp-node-native)
 
 ## Prerequisites
 
