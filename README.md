@@ -9,7 +9,7 @@ Spacyio nlp for nodejs with native bindings
 
 ## Prerequisites
 
-```spaCy``` This module requires nodejs v4 or above as it has dependencies on es6 components such as Map, Set, Promise etc.
+- [spaCy](https://spacy.io/docs/usage/) installed
 
 ### Getting started
 
