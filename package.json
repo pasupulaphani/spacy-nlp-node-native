@@ -1,7 +1,7 @@
 {
-  "name": "spacy-node-native",
+  "name": "spacy-nlp-node-native",
   "version": "0.0.1",
-  "description": "Spacyio for nadejs with native bindings",
+  "description": "Spacyio nlp for nodejs with native bindings",
   "main": "index.js",
   "repository": "git@github.com:pasupulaphani/spacy-node-native.git",
   "author": "pasupulaphani@gmail.com",

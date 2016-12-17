@@ -1,2 +1,2 @@
-# spacy-node-native
-Spacyio for nodejs with native bindings
+# spacy-nlp-node-native
+Spacyio nlp for nodejs with native bindings
