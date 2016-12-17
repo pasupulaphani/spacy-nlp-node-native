@@ -22,7 +22,7 @@
 <label for="nav-trigger" class="overlay"></label>
 
 <nav>
-    <h2><a href="index.html">Home</a></h2>
+    <h2><a href="index.html">Home</a></h2><h3>Global</h3><ul><li><a href="global.html#parse">parse</a></li></ul>
 </nav>
 
 <div id="main">
@@ -38,13 +38,13 @@
     <section>
         <article>
             <pre class="prettyprint source linenums"><code>/**
- * Send redis instructions
+ * Parse text - nlp
  *
  * @param {string} text - Text to parse
  * @param {object} options - options to parse against
  * @returns {object} parsed text
  */
-module.exports = function parse (text, options) {
+function parse (text, options) {
 
   if (!text || text !== "") {
     return {};
@@ -53,7 +53,9 @@ module.exports = function parse (text, options) {
     text: text,
     options: options
   };
-};
+}
+
+module.exports = parse;
 </code></pre>
         </article>
     </section>
