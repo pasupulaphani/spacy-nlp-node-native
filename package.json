@@ -5,5 +5,12 @@
   "main": "index.js",
   "repository": "git@github.com:pasupulaphani/spacy-node-native.git",
   "author": "pasupulaphani@gmail.com",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha ./test"
+  },
+  "devDependencies": {
+    "eslint": "^3.12.2",
+    "mocha": "^3.2.0"
+  }
 }
