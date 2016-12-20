@@ -32,7 +32,9 @@
     "publish:minor": "npm version minor && npm run publish:push",
     "publish:major": "npm version major && npm run publish:push",
     "publish:push": "git push origin master --follow-tags && npm publish",
-    "postpublish": "npm run docs:generate && npm run docs:publish"
+    "postpublish": "npm run docs:generate && npm run docs:publish",
+    "configure": "node-gyp configure",
+    "build": "node-gyp build"
   },
   "devDependencies": {
     "coveralls": "^2.11.15",
@@ -42,10 +44,11 @@
     "jsdoc": "^3.4.3",
     "mocha": "^3.2.0",
     "mocha-lcov-reporter": "^1.2.0",
+    "nan": "^2.4.0",
+    "node-gyp": "^3.4.0",
     "should": "^11.1.1"
   },
   "dependencies": {
-    "bindings": "^1.2.1",
-    "node-python": "https://github.com/pasupulaphani/node-python.git#nan"
+    "bindings": "^1.2.1"
   }
 }
